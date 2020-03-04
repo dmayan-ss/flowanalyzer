@@ -285,10 +285,10 @@ if __name__ == "__main__":
 							flow_index["_source"].update(generic_transaction_record(unpacked_record_data))
 
 						elif record_ent_form_number == [0,2001]: # Extended NFS Storage Transaction
-							flow_index["_source"].update(ext_nfs_stroage_trans(unpacked_record_data))
+							flow_index["_source"].update(ext_nfs_storage_trans(unpacked_record_data))
 
 						elif record_ent_form_number == [0,2002]: # Extended SCSI Storage Transaction
-							flow_index["_source"].update(ext_scsi_stroage_trans(unpacked_record_data))
+							flow_index["_source"].update(ext_scsi_storage_trans(unpacked_record_data))
 
 						elif record_ent_form_number == [0,2003]: # Extended Web Transaction
 							flow_index["_source"].update(extended_web_trans(unpacked_record_data))
