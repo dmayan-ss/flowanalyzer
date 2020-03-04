@@ -16,7 +16,7 @@ from elasticsearch import Elasticsearch,helpers
 from IPy import IP
 from xdrlib import Unpacker
 
-from netflow_options import * # Flow Options
+from netflow_options import *
 
 ### Get the command line arguments ###
 try:
